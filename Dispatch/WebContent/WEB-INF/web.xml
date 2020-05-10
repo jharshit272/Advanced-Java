@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Dispatch</display-name>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.Login</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>WelcomeServlet</servlet-name>
+		<servlet-class>com.WelcomeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>com/Servlet1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>com/Servlet2</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>

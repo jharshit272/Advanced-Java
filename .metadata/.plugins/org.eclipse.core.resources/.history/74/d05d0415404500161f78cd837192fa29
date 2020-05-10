@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Send redirect example</title>
+</head>
+<body>
+	<h1>Hi how are you !</h1>
+</body>
+
+<form action="aa" method="get">
+	Name: <input type="text" name="name" /><br /> <input type="submit"
+		value="Google Search">
+</form>
+
+</html>

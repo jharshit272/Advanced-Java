@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<a href = "Login.html">Login</a>
+<a href = "LogoutServlet.html">Logout</a>
+<a href = "ProfileServlet.html">Profile</a>
+
+</body>
+</html>
